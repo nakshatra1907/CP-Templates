@@ -17,7 +17,7 @@ public:
         return parent[node]=findpar(parent[node]); //path compression
     }
     
-    void unionSize(int u,int v){
+    void unionsize(int u,int v){
         //find ultimate parents
         int pu=findpar(u);
         int pv=findpar(v);
@@ -34,7 +34,7 @@ public:
         }
     }
     
-    void unionRank(int u,int v){
+    void unionrank(int u,int v){
         //find ultimate parents
         int pu=findpar(u);
         int pv=findpar(v);
