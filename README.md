@@ -1,2 +1,2 @@
 # CP-Templates
-Standard Templates used in Competitive Programming
+Standard Code Templates used in Competitive Programming
