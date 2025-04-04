@@ -3,7 +3,7 @@ class dsu{
 
 public:
     dsu(int n){
-        for (int i=0,i<=n;i++){
+        for (int i=0;i<=n;i++){
             parent.pb(i);
             size.pb(1);
             rank.pb(0);
